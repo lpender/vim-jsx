@@ -16,7 +16,7 @@ if !exists('g:jsx_pragma_required')
   let g:jsx_pragma_required = 0
 endif
 
-let s:jsx_pragma_pattern = '\%^\_s*\/\*\*\%(\_.\%(\*\/\)\@!\)*@jsx\_.\{-}\*\/'
+let s:jsx_pragma_pattern = '\%^\_s*\/\*\*\%(\_.\%(\*\/\)\@!\)*@tsx\_.\{-}\*\/'
 
 " Whether to set the JSX filetype on *.js files.
 fu! <SID>EnableJSX()
